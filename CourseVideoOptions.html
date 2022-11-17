@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+        .hide {
+          display: none;
+        }
+            
+        .Course:hover + .hide {
+          display: block;
+          color: rgb(17, 0, 255);
+        }
+        #firstLine {
+          border: 1px solid;
+          padding: 5px;
+        }
+        h1 {text-align: center;}
+        h3 {text-align: center;}
+        p {text-align: center;}
+        div {text-align: center;}
+
+        </style>
+    </head>
+<body>
+  <div id="firstLine">
+<h1>My Enrolled Courses</h1>
+</div>
+<p><h3>Course Videos: Self-Paced or On time</h3></p>
+    <div>
+        <div class="Course">Data Analytics Fundamentals</div>
+        <button onclick="getElementById('demo').innerHTML='You have chosen self-paced option. You can access the videos at your convenience and you are allowed to pause, restart and skip.' ">Self-Paced</button>
+        <button onclick="getElementById('demo').innerHTML='You have chosen real time option. You will have access to the course videos for that week only.' ">On Time</button>           
+        <br><br>
+        <div class="Course">Seminar Systems Development</div>
+        <button onclick="getElementById('demo').innerHTML='You have chosen self-paced option. You can access the videos at your convenience and you are allowed to pause, restart and skip.' ">Self-Paced</button>
+        <button onclick="getElementById('demo').innerHTML='You have chosen real time option. You will have access to the course videos for that week only.' ">On Time</button>
+        <br><br>
+        <div class="Course">ERP Config and Implementation</div>
+        <button onclick="getElementById('demo').innerHTML='You have chosen self-paced option. You can access the videos at your convenience and you are allowed to pause, restart and skip.' ">Self-Paced</button>
+        <button onclick="getElementById('demo').innerHTML='You have chosen real time option. You will have access to the course videos for that week only.' ">On Time</button>
+        <br><br>
+        <div class="Course">Decision Support Analytics</div>
+        <button onclick="getElementById('demo').innerHTML='You have chosen self-paced option. You can access the videos at your convenience and you are allowed to pause, restart and skip.' ">Self-Paced</button>
+        <button onclick="getElementById('demo').innerHTML='You have chosen real time option. You will have access to the course videos for that week only.' ">On Time</button>
+        <p id="demo"></p>
+        <br><br>
+    </div>
+</body>
+</html>
+
