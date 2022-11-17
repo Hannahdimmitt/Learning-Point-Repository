@@ -39,7 +39,7 @@ var defaultThreads = [
     },
     {
         id: 3,
-        title: "Share with your peers!",
+        title: "Share with your peers!!",
         author: "User",
         date: Date.now(),
         content: "Share with peers content",
