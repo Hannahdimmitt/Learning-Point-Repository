@@ -36,6 +36,25 @@ var defaultThreads = [
                 content: "Hey to you too"
             }
         ]
+    },
+    {
+        id: 3,
+        title: "Share with your peers!",
+        author: "User",
+        date: Date.now(),
+        content: "Share with peers content",
+        comments: [
+            {
+                author: "Student",
+                date: Date.now(),
+                content: "Hey there"
+            },
+            {
+                author: "Peer",
+                date: Date.now(),
+                content: "Hey to you too"
+            }
+        ]
     }
 ]
 
