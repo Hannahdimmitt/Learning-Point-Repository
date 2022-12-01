@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+        .hide {
+          display: none;
+        }
+            
+        .myDIV:hover + .hide {
+          display: block;
+          color: rgb(255, 0, 106);
+        }
+
+        h2 {text-align: center;}
+        p {text-align: center;}
+        div {text-align: center;}
+        </style>
+        </head>
+<body>
+
+<h2>Knowledge Testing</h2>
+
+<p>Evaluate what you learned</p>
+    <div>
+        <div class="myDIV">Take a quiz</div>
+        <div class="hide">Start this week's quiz</br>             
+        </div>
+        <button onclick="getElementById('demo').innerHTML='Start new test for this week.' ">Start New</button>
+        <button onclick="getElementById('demo').innerHTML='Resume test that you have saved before.' ">Resume</button>
+        
+        <p id="demo"></p>
+        <div class="myDIV">See results</div>
+        <div class="hide">Get Quiz Feedback </br>
+        
+        </div>
+        <button onclick="getElementById('dem').innerHTML='You got 88 in Quiz 1' ">Quiz 1</button> </br>
+        <button onclick="getElementById('dem').innerHTML='You got 78 in Quiz 2'">Quiz 2</button> </br>
+        <button onclick="getElementById('dem').innerHTML='You got 75 in Quiz 3'">Quiz 3</button> </br>
+        <button onclick="getElementById('dem').innerHTML='You got 93 in Quiz 4'">Quiz 4</button> </br>
+        <p id="dem"></p></br>
+        
+        <div class="myDIV">Grade Distribution</div>
+        <div> A = >89 </br>
+              B = 80 - 89 </br>
+              C = 70- 79 </br>
+              D = 60 - 69 </br>
+              F = 0 - 59
+        </div>
+    </div>
+</body>
+</html>
+
